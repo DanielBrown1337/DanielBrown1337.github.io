@@ -1,22 +1,36 @@
 body {
-    background:red ;
+    background:#696969 ;
 font-family: Arial, Helvetica, sans-serif;
 
 }
 .assignment{
     display:flex;
     padding: 10px;
-    margin: 10px;
+    margin: 10px; 
+    background: #D3D3D3;
 }
 .assignment img{
     width:200px;
     height: 200px;
-    padding:10px;
-    background: lightgray;
+    margin: 10px;
+   
 
 }
-
+.assignment img {
+    border:4px dashed black;
+}
+.assignment img:hover{
+    border:4px dashed gold;
+}
 h1 {
-    color: darkslategrey;
+    color: rgb(47, 53, 79);
     text-align:center;
+}
+
+a {
+    text-decoration: none;
+    color: #B22222;
+}
+a:hover{
+    color:white;
 }
